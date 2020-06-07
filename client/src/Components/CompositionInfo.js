@@ -39,7 +39,7 @@ class CompositionInfo extends Component {
                 {this.props.selectedComposition && 
                     <div>
                         <Table bordered hover className='margin-top'>
-                        <tbody>
+                        <tbody id='composition-breakdown'>
                             {this.renderCompositions()}              
                         </tbody>
                         </Table>

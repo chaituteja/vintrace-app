@@ -65,6 +65,14 @@ getCompositionBreakDown = (event) => {
         selectedCompositionBreakdown: breakDownComponents
       })
     })
+    setTimeout(this.scrollIntoView, 100)
+}
+
+scrollIntoView () {
+  let element = document.getElementById("composition-breakdown");
+  if(element) {
+    element.scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
 }
 
 onLoadMore = () => {
