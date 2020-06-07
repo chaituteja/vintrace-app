@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.margin-top {
+  margin: 20px;
+}
+
+.margin-bottom {
+  margin: 20px;
+}
+
+.wine-select {
+  width: 70%;
+}
+
+.edit-button {
+  height: 100%;
+  float: right;
+}
